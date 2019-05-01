@@ -9,7 +9,7 @@ pipeline {
     stage ('bulid'){
         steps{
 
-        sh "https://github.com/alshamari/cloud-/tree/master/application"   
+        sh "python -u /Users/alshamari/re/application/api.py" 
         }
     }
     
